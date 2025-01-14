@@ -16,6 +16,7 @@
     ./client 192.168.1.222
     ```
     If the IP Address is not mentioned, the client will take the local host 127.0.0.1 as the local host IP Address.
+    Run the clients can run on two different machines as well.
 - To run the code using TCP as the communication method,
     ```
     gcc -o server client_TCP.c
